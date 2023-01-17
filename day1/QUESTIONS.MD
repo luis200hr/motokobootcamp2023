@@ -1,6 +1,7 @@
 1. How much is the current memory capacity of a canister?
 
 *Currently according to intenercomputer.org documentation it is 4 GB.*
+
 2. What is the issue with the following code sample?
 ```
 actor {
