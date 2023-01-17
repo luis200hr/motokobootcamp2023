@@ -29,7 +29,9 @@ actor {
   };
 }
 ```
-the issue is that the var "message" is equal to 0 (an integer), but is type Text. To fix this we can write Text = "";
+
+*the issue is that the var "message" is equal to 0 (an integer), but is type Text. To fix this we can write Text = "";*
 
 4. False or True: we can remove the keyword **async** for return argument of a query function since queries are faster to answer.
-False, we need the keyword **async** because the function need some time to complete
+
+*False, we need the keyword **async** because the function need some time to complete*
