@@ -1,4 +1,5 @@
 1. How much is the current memory capacity of a canister?
+
 *Currently according to intenercomputer.org documentation it is 4 GB.*
 2. What is the issue with the following code sample?
 ```
@@ -9,7 +10,7 @@ actor {
   };
 }
 ```
-*Rhe variable "let" is  immutable and what the function does is to increment the counter, and defining "counter" with "let" will give us an error, to avoid this we would have to use "var".*
+*The variable "let" is  immutable and what the function does is to increment the counter, and defining "counter" with "let" will give us an error, to avoid this we would have to use "var".*
 3. What is the issue with the following code sample?
 ```
 actor {
