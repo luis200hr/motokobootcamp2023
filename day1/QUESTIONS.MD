@@ -11,7 +11,9 @@ actor {
   };
 }
 ```
+
 *The variable "let" is  immutable and what the function does is to increment the counter, and defining "counter" with "let" will give us an error, to avoid this we would have to use "var".*
+
 3. What is the issue with the following code sample?
 ```
 actor {
